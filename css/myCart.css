@@ -1,0 +1,105 @@
+.header{
+    width: 860px;
+    height: 80px;
+    background-color: #ccc;
+    margin: auto;
+}
+.header h1{
+    text-align: center;
+    line-height: 80px;
+}
+.goodsList{
+    width: 860px;
+    margin: auto;
+}
+.title{
+    overflow: hidden;
+    height: 40px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+.title span{
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333;
+}
+.title .t1{
+    margin-left: 100px;
+}
+.title .t2{
+    margin-left: 400px;
+}
+.title .t3{
+    margin-left: 100px;
+}
+.title .t4{
+    margin-left: 100px;
+}
+.list li{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.list li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.list li h3{
+    float: left;
+    font-weight: normal;
+    font-size: 14px;
+    width: 300px;
+    padding: 10px 0 0 15px;
+}
+.list li p{
+    float: left;
+    font-size: 14px;
+    color: red;
+    padding: 10px 0 0 136px;
+}
+.list li span{
+    float: left;
+    font-size: 14px;
+    color: blue;
+    /* border-top: 1px solid black; */
+    line-height: 30px;
+    position: absolute;
+    right: 37px;
+    bottom: 0px;
+}
+.list li em{
+    float: left;
+    font-size: 14px;
+    color: orangered;
+    margin: 10px 0 0 75px;
+    cursor: pointer;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+    font-size: 14px;
+    color: blue;
+    margin: 5px 0 0 70px;    
+    position: relative;
+    /* overflow: hidden; */
+}
+.list .reduce{
+    position: absolute;
+    right: 52px;
+    bottom: 0px;
+}
+.list button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.list .add{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
